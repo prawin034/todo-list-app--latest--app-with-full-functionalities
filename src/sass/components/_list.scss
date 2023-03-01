@@ -1,0 +1,49 @@
+.list {
+  margin-top: 3rem;
+  &_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &_title {
+      font-size: 2rem;
+      color: #1098ad;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+  &_clear {
+    font-size: 2rem;
+    color: rgb(152, 34, 54);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  &_total {
+    font-size: 1.3rem;
+    color: rgb(152, 34, 54);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+  }
+}
+
+.btn_edit,
+.btn_trash {
+  background: none;
+  border: none;
+  color: #1098ad;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: inline-block;
+  margin-right: 1rem;
+
+  &:hover {
+    color: black;
+  }
+}
